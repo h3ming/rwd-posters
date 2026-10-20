@@ -7,9 +7,23 @@ body {
 .grad-bg {
   height: 100vh;
   width: 100vw;
-  background: radial-gradient(circle at 30% 30%,rgba(247, 161, 229, 1) 0%, rgba(250, 132, 219, 1) 21%, rgba(250, 90, 247, 0.03) 41%), linear-gradient(314deg,
+  background: radial-gradient(circle at 32% 30%,rgba(247, 161, 229, 1) 0%, rgba(250, 132, 219, 1) 15%, rgba(250, 90, 247, 0.03) 35%), linear-gradient(314deg,
   #5ACDFA 0%, 
   #ED53C4 63%, 
   #5ACDFA 97%);
   filter: blur(11px);
+}
+
+.main-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+  font-family: sans-serif;
+  color: white;
 }
